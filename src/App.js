@@ -1,55 +1,38 @@
 import React from "react";
-import "./App.css";
+import "./App.css"; // We'll style it in a moment
 
 function App() {
   return (
-    <div className="App">
-      {/* HEADER */}
+    <div className="portfolio">
+      {/* Header */}
       <header className="header">
-        <img
-          src="/me.jpg"
-          alt="Profile"
-          className="profile-pic"
-        />
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>Frontend Developer | Designer | Problem Solver</p>
+        <img src="/profile.jpg" alt="Profile" className="profile-pic" />
+        <h1>John Doe</h1>
+        <p>Frontend Developer | React Enthusiast | UI Designer</p>
       </header>
 
-      {/* ABOUT SECTION */}
-      <section className="about">
-        <h2>About Me</h2>
-        <p>
-          I’m a passionate web developer with experience in building modern,
-          responsive websites. I love turning ideas into reality using code.
-        </p>
-      </section>
-
-      {/* PROJECTS SECTION */}
+      {/* Projects */}
       <section className="projects">
         <h2>My Projects</h2>
-        <div className="project-list">
+        <div className="project-grid">
           <div className="project-card">
-            <img src="/project-afi.png" alt="Project 1" />
+            <img src="/project-afi.jpg" alt="Project 1" />
             <h3>Project One</h3>
-            <p>A short description of your first project.</p>
+            <p>A brief description of this awesome project.</p>
           </div>
           <div className="project-card">
-            <img src="/project-greenlandcare.png" alt="Project 2" />
+            <img src="/project-greenlandcare.jpg" alt="Project 2" />
             <h3>Project Two</h3>
-            <p>A short description of your second project.</p>
+            <p>Another exciting project worth showcasing.</p>
           </div>
         </div>
       </section>
 
-      {/* CONTACT SECTION */}
-      <section className="contact">
+      {/* Contact */}
+      <footer className="contact">
         <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-      </section>
-
-      {/* FOOTER */}
-      <footer className="footer">
-        <p>© {new Date().getFullYear()} [Your Name]. All Rights Reserved.</p>
+        <p>Email: johndoe@example.com</p>
+        <p>GitHub: <a href="https://github.com/your-username">your-username</a></p>
       </footer>
     </div>
   );
