@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/taylorsden/static/css/main.7b0581a5.css",
+    "main.js": "/taylorsden/static/js/main.e660a36d.js",
+    "static/js/453.17616ed2.chunk.js": "/taylorsden/static/js/453.17616ed2.chunk.js",
+    "index.html": "/taylorsden/index.html",
+    "main.7b0581a5.css.map": "/taylorsden/static/css/main.7b0581a5.css.map",
+    "main.e660a36d.js.map": "/taylorsden/static/js/main.e660a36d.js.map",
+    "453.17616ed2.chunk.js.map": "/taylorsden/static/js/453.17616ed2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b0581a5.css",
+    "static/js/main.e660a36d.js"
+  ]
+}
